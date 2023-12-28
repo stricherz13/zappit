@@ -5,5 +5,5 @@ from posts import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/posts', views.PostListView.as_view()),
+    path('api/posts', views.PostList.as_view())
 ]
